@@ -1,0 +1,18 @@
+!!!
+%html
+	%head
+		%title Dashboard
+		= stylesheet_link_tag    "application"
+		= javascript_include_tag "application"
+		= yield :head
+		= csrf_meta_tags
+	%body
+		= render :partial => 'shared/header'
+		%div.container-fluid{:class => controller_name}
+			%div.sidebar
+				%div.well
+					= render :partial => 'shared/form_search_report'
+				%div.well
+					= render :partial => 'shared/recent_reports'
+			= yield
+		= render :partial => 'shared/footer'

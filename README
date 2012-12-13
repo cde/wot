@@ -1,0 +1,3 @@
+Prototype for dashboard
+rake db:migrate
+rake db:seed

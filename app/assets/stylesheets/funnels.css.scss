@@ -1,0 +1,23 @@
+// Place all the styles related to the funnels controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+table  {
+    tfoot td{
+        border-top: 3px solid #DDDDDD;
+        font-weight: bold;
+        padding-top: 9px;
+        vertical-align: middle;
+
+    }
+
+    td{
+        text-align: right;
+
+    }
+    td.weed{
+        text-align: center;
+    }
+}
+
+
